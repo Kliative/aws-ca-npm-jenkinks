@@ -1,0 +1,19 @@
+{
+  "name": "aws-ca-npm-jenkinks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kliative/aws-ca-npm-jenkinks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kliative/aws-ca-npm-jenkinks/issues"
+  },
+  "homepage": "https://github.com/Kliative/aws-ca-npm-jenkinks#readme"
+}
