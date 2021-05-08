@@ -14,7 +14,7 @@ pipeline {
                 }
             }
             steps {
-                    echo 'I think this works'
+                    echo 'I thinkss this works'
             }
         }
     }
