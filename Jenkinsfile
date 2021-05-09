@@ -11,7 +11,7 @@ pipeline {
         stage('Stage 2 Npm') {
             steps {
                 echo 'NPM'
-                sh 'npm publish'
+                
             }
         }
         stage('Deploy') {
@@ -21,6 +21,7 @@ pipeline {
                 }
             }
             steps {
+                    sh 'npm publish'
                     echo 'I thinkss this works'
             }
         }
