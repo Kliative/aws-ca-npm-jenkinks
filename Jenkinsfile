@@ -6,7 +6,12 @@ pipeline {
                 echo 'Hello waaasaaoeeerld!asdas 2'
             }
         }
-
+        stage('Stage 2 Npm') {
+            steps {
+                echo 'NPM'
+                npm publish
+            }
+        }
         stage('Deploy') {
             when {
                 expression {
