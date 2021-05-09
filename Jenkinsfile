@@ -9,7 +9,7 @@ pipeline {
         stage('Stage 2 Npm') {
             steps {
                 echo 'NPM'
-                npm publish
+                sh 'npm publish'
             }
         }
         stage('Deploy') {
