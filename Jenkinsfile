@@ -22,7 +22,7 @@ pipeline {
             }
             steps {
                     sh 'npm publish'
-                    echo 'I thinkss this works'
+                    echo 'I thinksskjlkjl this works'
             }
         }
     }
