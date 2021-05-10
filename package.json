@@ -4,8 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "npm run co:login",
-    "co:login": "aws codeartifact login --tool npm --repository npm-store --domain kliative-dev --domain-owner 789673029704",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
