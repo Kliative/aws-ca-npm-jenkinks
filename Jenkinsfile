@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Stage 1') {
             steps {
-                echo 'Hello sdfwaaasaaoeeerld!asdas 2'
+                echo '11Hello s git push --set-upstream origin 3 git push --set-upstream origin 3dfwaaasaaoeeerld!asdas 2'
             }
         }
         stage('Stage 2 Npm') {
@@ -22,7 +22,7 @@ pipeline {
             }
             steps {
                     sh 'npm publish'
-                    echo 'I thinkss this works'
+                    echo 'I thinksskjlkjl this works'
             }
         }
     }
